@@ -10,17 +10,14 @@ import slider4 from "../public/assets/the.png";
 const Clients = () => {
   return (
     <section id="work" className="">
-      <div className="px-8 pb-16 pt-0 mx-auto">
-        <div className="flex flex-wrap flex-col w-full mb-5 items-center mx-auto">
-          <h3 className="text-4xl text-center uppercase tracking-widest border-b-2 border-orange-500 mb-2">
-            <span className="text-orange-600">Our </span> Clients
+      <div className="px-8 pb-8 mx-auto">
+        <div className="flex mb-5 flex-col items-center">
+          <h3 className="text-5xl text-center uppercase tracking-widest border-b-2 border-orange-500 mb-2">
+          <span className="text-orange-600">Our </span> Clients
           </h3>
         </div>
         <Swiper
           breakpoints={{
-            // 576: {
-            //   slidesPerView: 2,
-            // },
             768: {
               slidesPerView: 4,
             },
@@ -41,76 +38,68 @@ const Clients = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider4}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center  h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider3}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
+       
             <Image
               src={slider2}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
+          
             <Image
               src={slider2}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
+          
             <Image
               src={slider2}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
+          
             <Image
               src={slider2}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
+         
             <Image
               src={slider2}
               alt=".."
-              // className="w-full h-[20vh] md:h-[55vh]"
-              className="object-fill object-center w-50 h-[5vh] md:h-[15vh]"
+              className="object-fill object-center h-12 md:h-32"
             />
           </SwiperSlide>
         </Swiper>

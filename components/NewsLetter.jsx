@@ -4,10 +4,10 @@ const NewsLetter = () => {
     <div id="newsletter" className=" bg-gray-100 py-12">
       <div className="mb-8 px-8">
         <h3 className="text-4xl tracking-tight text-center">
-          Join Our NewsLetter
+          Join Our Newsletter
         </h3>
       </div>
-      <form className=" flex justify-center px-4 md:px-56">
+      <form className=" flex justify-center px-8 md:px-56">
         <div className="w-full ">
           <input
             type="email"

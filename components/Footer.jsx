@@ -5,27 +5,27 @@ import Logo from "../public/assets/GD-Dots.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-black text-white shadow-lg border-t-2">
-        <div className="container  gap-10 px-5 py-12 mx-auto grid md:grid-cols-3  md:items-center  ">
-          <div className="mx-auto text-center md:text-left">
+    <section>
+      <footer className=" bg-black text-white shadow-lg">
+        <div className="container px-5 pt-12 mx-auto gap-1 md:gap-20 grid md:grid-cols-3  md:items-center  ">
+          <div className="text-center mb-10 md:text-left">
             <Link href={"/"}>
-              <div className="flex font-medium items-center justify-center text-white cursor-pointer mb-5 md:justify-start">
+              <div className="flex font-medium  justify-center  cursor-pointer mb-5 md:justify-start">
                 <Image src={Logo} alt=".." width={140} height={40} />
               </div>
             </Link>
-            <p className="mt-2 px-4 text-sm text-gray-300 ">
+            <p className="text-sm text-gray-300 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               alias, placeat ut consectetur ducimus architecto tenetur suscipit
               exercitationem corporis excepturi.
             </p>
           </div>
 
-          <div className="-mb-10 mt-10 justify-center items-center text-center md:mt-0 md:px-24 md:text-left">
-            <div className="w-full px-4 ">
-              <h2 className="font-bold text-white tracking-widest text-sm mb-5">
+          <div className="mt-5 justify-center text-center items-center md:mt-0 md:text-left">
+            <div className=" px-8 ">
+              <h3 className="font-bold text-white tracking-widest  mb-5">
                 Privacy & Terms
-              </h2>
+              </h3>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-300 text-sm hover:text-gray-800">
@@ -45,11 +45,11 @@ const Footer = () => {
               </nav>
             </div>
           </div>
-          <div className="-mb-10 mt-10 justify-center items-center text-center md:mt-0 md:px-24 md:text-left">
-            <div className="w-full px-4 ">
-              <h2 className="font-bold text-white tracking-widest text-sm mb-5">
+          <div className="mt-5 justify-center items-center text-center md:mt-0  md:text-left">
+            <div className=" px-8 ">
+              <h3 className="font-bold text-white tracking-widest mb-5">
                 Quick Links
-              </h2>
+              </h3>
               <nav className="list-none mb-10">
                 <Link href={"/contact"}>
                   <li>
@@ -75,14 +75,14 @@ const Footer = () => {
 
         <hr className="text-white mx-20" />
         <div className="bg-black">
-          <div className=" m-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-center items-center">
-            <p className=" text-sm text-center tracking-widest space-x-36 sm:text-left">
+          <div className=" py-4 px-5 justify-center items-center flex flex-wrap flex-col sm:flex-row">
+            <p className=" text-sm text-center tracking-widest  sm:text-left">
               © Copyright 2023 || GD Dots || All Rights Reserved
             </p>
           </div>
         </div>
       </footer>
-    </div>
+    </section>
   );
 };
 

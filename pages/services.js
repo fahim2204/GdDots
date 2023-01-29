@@ -12,12 +12,11 @@ const Services = () => {
     <div id="services" className="bg-pink-50">
       <section className="text-gray-600">
         <div className="px-8 py-12 mx-auto">
-          <div className="flex flex-wrap w-full mb-5 flex-col items-center text-center">
-            <h1 className="text-4xl  font-bolder mb-2 text-gray-900 uppercase tracking-wider">
+          <div className="flex  mb-5 flex-col items-center text-center">
+            <h1 className="text-5xl mb-2 text-gray-900 uppercase tracking-wider">
               Our <span className="text-orange-600">Services</span>
             </h1>
           </div>
-
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16  justify-center text-center items-center mx-auto">
             <div class="w-full p-6 text-center  mb-4 rounded-lg shadow-xl bg-white border border-gray-200">
               <Image src={Img} className="object-fill object-center" alt=".." />

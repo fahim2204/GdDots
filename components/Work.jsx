@@ -9,9 +9,9 @@ import slider4 from "../public/assets/cover.jpg";
 const Work = () => {
   return (
     <div id="work" className="">
-      <div className="px-8 py-16 pt-5  mx-auto">
-        <div className="flex flex-wrap w-full mb-5 flex-col items-center text-center">
-          <h3 className="text-4xl text-center uppercase tracking-widest">
+      <div className="px-8 py-8  mx-auto">
+        <div className="flex mb-5 flex-col items-center">
+          <h3 className="text-5xl text-center uppercase tracking-widest">
             <span className="text-orange-600">Our </span> Work
           </h3>
         </div>
@@ -35,28 +35,28 @@ const Work = () => {
             <Image
               src={slider}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider4}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider3}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -64,7 +64,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -72,7 +72,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -80,7 +80,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -88,7 +88,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -96,7 +96,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="w-full h-[20vh] md:h-[55vh]"
+              className="object-fill object-center h-52 md:h-96"
             />
           </SwiperSlide>
         </Swiper>
