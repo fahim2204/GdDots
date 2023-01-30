@@ -42,9 +42,9 @@ html {
     @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-pink-600 to-pink-400 text-white
   }
 }
-@import 'swiper/css';
 
-.progress {
+
+/* .progress {
   position: fixed;
   left: 0;
   right: 0;
@@ -76,4 +76,4 @@ html {
 .parallax span {
   display: block;
   margin-right: 30px;
-}
+} */

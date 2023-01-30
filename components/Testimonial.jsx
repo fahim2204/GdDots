@@ -34,7 +34,7 @@ const Testimonial = () => {
             className="mySwiper"
           >
             <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-lg mb-2 bg-white relative">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
                 <Image
                   src={slider4}
                   alt=".."
@@ -104,7 +104,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-lg mb-2 bg-white relative">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
                 <Image
                   src={slider4}
                   alt=".."
@@ -173,7 +173,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-lg mb-2 bg-white relative">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
                 <Image
                   src={slider4}
                   alt=".."
@@ -242,7 +242,7 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-lg mb-2 bg-white relative">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
                 <Image
                   src={slider4}
                   alt=".."
