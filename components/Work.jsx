@@ -35,28 +35,28 @@ const Work = () => {
             <Image
               src={slider}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src={slider4}
+              src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={slider3}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -64,7 +64,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -72,7 +72,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -80,7 +80,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -88,7 +88,7 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -96,14 +96,15 @@ const Work = () => {
             <Image
               src={slider2}
               alt=".."
-              className="object-fill object-center h-52 md:h-96"
+              // className="object-fill object-center h-52 md:h-96"
+              className=" rounded-2xl  w-full h-full mt-5"
             />
           </SwiperSlide>
         </Swiper>
         <div className="flex justify-center py-5">
           <button
             type="button"
-            class="text-white bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2"
+            class="text-white text-xl px-5 py-3 text-center  bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br font-medium "
           >
             View All Design
           </button>

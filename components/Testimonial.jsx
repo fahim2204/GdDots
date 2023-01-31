@@ -16,29 +16,33 @@ const Testimonial = () => {
         <div className="px-8 py-16 pb-0 pt-5 rounded-lg  mx-auto">
           <Swiper
             breakpoints={{
+              576: {
+                slidesPerView: 2,
+              },
               768: {
                 slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
               },
             }}
             slidesPerView={1}
             spaceBetween={30}
-            autoplay={{
-              delay: 1500,
-              disableOnInteraction: false,
-            }}
             centeredSlides={true}
-            // Pagination={true}
+            Pagination={true}
             // modules={[Navigation, Autoplay, Pagination]}
             pagination={true}
             modules={[Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
+            <SwiperSlide className="mb-12 mx-12">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative w-4/5">
                 <Image
                   src={slider4}
                   alt=".."
-                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-2"
+                  className="w-24 h-24 rounded-full border-4  border-black mx-auto mb-0 -mt-20 "
                 />
                 <h5 class="text-lg text-black font-bold">Tarek Fahim</h5>
                 <div class="flex items-center mb-2">
@@ -93,22 +97,19 @@ const Testimonial = () => {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                   </svg>
                 </div>
-                <p class="text-sm text-center text-black mb-12">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio quidem, iusto iste ullam amet magnam ratione facere
-                  asperiores vel voluptates ducimus ea accusantium rerum
-                  voluptatibus animi nihil quaerat, vitae nesciunt.
-                  {/* It Extremely Helpful. The Graphics class/work clear and Detailed.Thanks again for the great job.May Allah Bless You. */}
+                <p class="text-sm text-center text-black">
+                  It Extremely Helpful. The Graphics class/work clear and
+                  Detailed.Thanks again for the great job.May Allah Bless You.
                 </p>
-                <div class="bg-white  absolute rounded-xl bottom-0  transform -rotate-45  w-24  h-12 content-center"></div>
+                <div class="bg-white  absolute rounded-xl bottom-0 right-1/2 translate-x-1/2  transform -rotate-45 -z-10 w-28 h-16 "></div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
+            <SwiperSlide className="mb-12">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative w-4/5">
                 <Image
                   src={slider4}
                   alt=".."
-                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-2"
+                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-4  border-black"
                 />
                 <h5 class="text-lg text-black font-bold">Tarek Fahim</h5>
                 <div class="flex items-center mb-2">
@@ -163,21 +164,19 @@ const Testimonial = () => {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                   </svg>
                 </div>
-                <p class="text-sm text-center text-black mb-12">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio quidem, iusto iste ullam amet magnam ratione facere
-                  asperiores vel voluptates ducimus ea accusantium rerum
-                  voluptatibus animi nihil quaerat, vitae nesciunt.
+                <p class="text-sm text-center text-black">
+                  It Extremely Helpful. The Graphics class/work clear and
+                  Detailed.Thanks again for the great job.May Allah Bless You.
                 </p>
-                <div class="bg-white  absolute rounded-xl bottom-0  transform -rotate-45  w-24  h-12 content-center"></div>
+                <div class="bg-white  absolute rounded-xl bottom-0 right-1/2 translate-x-1/2  transform -rotate-45 -z-10 w-28  h-16 "></div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
+            <SwiperSlide className="mb-12 ">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative w-4/5">
                 <Image
                   src={slider4}
                   alt=".."
-                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-2"
+                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-4  border-black"
                 />
                 <h5 class="text-lg text-black font-bold">Tarek Fahim</h5>
                 <div class="flex items-center mb-2">
@@ -232,21 +231,19 @@ const Testimonial = () => {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                   </svg>
                 </div>
-                <p class="text-sm text-center text-black mb-12">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio quidem, iusto iste ullam amet magnam ratione facere
-                  asperiores vel voluptates ducimus ea accusantium rerum
-                  voluptatibus animi nihil quaerat, vitae nesciunt.
+                <p class="text-sm text-center text-black ">
+                  It Extremely Helpful. The Graphics class/work clear and
+                  Detailed.Thanks again for the great job.May Allah Bless You.
                 </p>
-                <div class="bg-white  absolute rounded-xl bottom-0  transform -rotate-45  w-24  h-12 content-center"></div>
+                <div class="bg-white  absolute rounded-xl bottom-0 right-1/2 translate-x-1/2  transform -rotate-45 -z-10 w-28  h-16 "></div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-14">
-              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative">
+            <SwiperSlide className="mb-12">
+              <div class="flex flex-col items-center p-6 pt-12 mt-12 rounded-3xl mb-2 bg-white relative w-4/5">
                 <Image
                   src={slider4}
                   alt=".."
-                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-2"
+                  className="w-24 h-24 rounded-full mx-auto mb-0 -mt-20 border-4  border-black"
                 />
                 <h5 class="text-lg text-black font-bold">Tarek Fahim</h5>
                 <div class="flex items-center mb-2">
@@ -301,13 +298,11 @@ const Testimonial = () => {
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                   </svg>
                 </div>
-                <p class="text-sm text-center text-black mb-12">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio quidem, iusto iste ullam amet magnam ratione facere
-                  asperiores vel voluptates ducimus ea accusantium rerum
-                  voluptatibus animi nihil quaerat, vitae nesciunt.
+                <p class="text-sm text-center text-black">
+                  It Extremely Helpful. The Graphics class/work clear and
+                  Detailed.Thanks again for the great job.May Allah Bless You.
                 </p>
-                <div class="bg-white  absolute rounded-xl bottom-0  transform -rotate-45  w-24  h-12 content-center"></div>
+                <div class="bg-white  absolute rounded-xl bottom-0 right-1/2 translate-x-1/2  transform -rotate-45 -z-10 w-28  h-16 "></div>
               </div>
             </SwiperSlide>
           </Swiper>

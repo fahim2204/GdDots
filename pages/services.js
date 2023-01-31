@@ -17,65 +17,65 @@ const Services = () => {
               Our <span className="text-orange-600">Services</span>
             </h1>
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-16 justify-center text-center items-center mx-auto">
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+          <div className=" justify-center text-center items-center mx-auto gap-16 grid sm:grid-cols-2 md:grid-cols-3">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300 ">
               <Image src={Img} className="object-fill object-center" alt=".." />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 Graphics <br /> Design
               </h2>
             </div>
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300">
               <Image
                 src={Img2}
                 className="object-fill object-center mb-4"
                 alt=".."
               />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 Motion <br /> Graphics
               </h2>
             </div>
 
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300">
               <Image
                 src={Img3}
                 className="object-fill object-center mb-2"
                 alt=".."
               />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 3D <br /> Animation
               </h2>
             </div>
 
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300">
               <Image
                 src={Img4}
                 className="object-fill object-center mb-2"
                 alt=".."
               />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 UI/UX <br /> Design
               </h2>
             </div>
 
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300">
               <Image
                 src={Img5}
                 className="object-fill object-center mb-2"
                 alt=".."
               />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 Clipping
                 <br /> Path
               </h2>
             </div>
 
-            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl shadow-xl bg-white border border-gray-200">
+            <div class="w-full h-full p-6 text-center  mb-4 rounded-3xl drop-shadow-xl bg-white border border-gray-200 hover:bg-orange-600 text-gray-900 hover:text-white transition duration-300">
               <Image
                 src={Img6}
                 className="object-fill object-center mb-2"
                 alt=".."
               />
-              <h2 className="text-4xl text-gray-900 font-medium mb-2">
+              <h2 className="text-4xl  font-medium mb-2">
                 Video <br /> Editing
               </h2>
             </div>
