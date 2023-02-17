@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={navBanner ? " w-full z-10" : "fixed w-full -top-96"}>
+      <div className={navBanner ? "w-full z-10" : "fixed w-full -top-96"}>
         <NavBanner />
       </div>
 
@@ -45,28 +45,25 @@ const Navbar = () => {
           shadow ? "shadow-gray-400" : ""
         } `}
       >
-        <div className="flex justify-between items-center  h-full mx-8">
+        <div className="max-w-6xl mx-auto px-5 flex justify-between items-center h-full">
           <Link href="/">
-            <div className="flex space-x-2">
-              <Image src={NavLogo} alt="/" width={140} height={40}/>
-            </div>
+            <Image src={NavLogo} alt="/" width={140} height={40} />
           </Link>
           <div>
-            <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8 mx-10">
-              <li className="ml-7 text-sm uppercase ">
+            <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8">
+              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
                 <Link href="/">Home</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
+              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
                 <Link href="/#company">Company</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
+              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
                 <Link href="/#services">Services</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
+              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
                 <Link href="/#blogs">Blogs</Link>
               </li>
-
-              <li className="ml-7 text-sm uppercase ">
+              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
                 <Link href="/#contact">Contact</Link>
               </li>
             </ul>
@@ -88,66 +85,48 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-                : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+                ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in transition duration-500"
+                : "fixed left-[-100%] top-0 px-6 py-10 ease-in transition duration-500"
             }
           >
-            <div>
-              <div className="flex w-full items-center justify-between">
-                <Link href="/">
-                  <>
-                    <Image src={NavLogo} width="40" height="20" alt="/" />
-                  </>
-                </Link>
-                <div
-                  onClick={handleNav}
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
-                >
-                  <AiOutlineClose className="text-black" />
-                </div>
-              </div>
-              <div className="border-b border-gray-300 my-4">
-                <p className="w-[85%] md:w-[90%] py-4 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+            <div className="flex w-full items-center justify-between">
+              <Link href="/">
+                <Image src={NavLogo} width="140" height="40" alt="/" />
+              </Link>
+              <div
+                onClick={handleNav}
+                className="rounded-full bg-white shadow-sm shadow-gray-400 p-3 cursor-pointer "
+              >
+                <AiOutlineClose className="text-black font-bold" />
               </div>
             </div>
-            <div className="py-4 flex flex-col">
-              <ul className="uppercase">
-                <Link href="/">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Home
-                  </li>
-                </Link>
-                <Link href="/#company">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Company
-                  </li>
-                </Link>
-                <Link href="/#services">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Services
-                  </li>
-                </Link>
-                <Link href="/#blogs">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Blogs
-                  </li>
-                </Link>
-
-                <Link href="/#contact">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Contact
-                  </li>
-                </Link>
-                <Link href="/#search">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Search
-                  </li>
-                </Link>
-              </ul>
-              <div className="pt-32"></div>
-            </div>
+            <ul className="flex flex-col uppercase text-white mt-8">
+              <Link href="/">
+                <li onClick={() => setNav(false)} className="py-4">
+                  Home
+                </li>
+              </Link>
+              <Link href="/#company">
+                <li onClick={() => setNav(false)} className="py-4">
+                  Company
+                </li>
+              </Link>
+              <Link href="/#services">
+                <li onClick={() => setNav(false)} className="py-4">
+                  Services
+                </li>
+              </Link>
+              <Link href="/#blogs">
+                <li onClick={() => setNav(false)} className="py-4">
+                  Blogs
+                </li>
+              </Link>
+              <Link href="/#contact">
+                <li onClick={() => setNav(false)} className="py-4">
+                  Contact
+                </li>
+              </Link>
+            </ul>
           </div>
         </div>
       </div>
