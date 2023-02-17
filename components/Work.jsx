@@ -16,95 +16,50 @@ const Work = () => {
           </h3>
         </div>
         <Swiper
-        breakpoints={{
-          // 576: {
-          //   slidesPerView: 2,
-          // },
-          768: {
-            slidesPerView: 3,
-          },
-        }}
+          breakpoints={{
+            // 576: {
+            //   slidesPerView: 2,
+            // },
+            768: {
+              slidesPerView: 3,
+            },
+          }}
           slidesPerView={1}
           spaceBetween={30}
-          centeredSlides={true}
+          centeredSlides={false}
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
-            <Image
-              src={slider}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src={slider3}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider3} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Image
-              src={slider2}
-              alt=".."
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Image
-              src={slider2}
-              alt=".."
-              // className="object-fill object-center h-52 md:h-96"
-              className=" rounded-2xl  w-full h-full mt-5"
-            />
+            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
           </SwiperSlide>
         </Swiper>
         <div className="flex justify-center py-5">
           <button
             type="button"
-            class="text-white text-xl px-5 py-3 text-center  bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br font-medium "
+            class="text-white text-xl font-medium rounded-lg shadow-xl hover:scale-105 px-5 py-3 text-center bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br transition-all duration-300"
           >
             View All Design
           </button>

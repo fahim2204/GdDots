@@ -38,3 +38,8 @@ html {
 
 }
 
+
+/* Modify Swiper JS */
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+}

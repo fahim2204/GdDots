@@ -1,71 +1,71 @@
 import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaInstagramSquare,
+  FaBehanceSquare,
+  FaFacebookSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 
 const NavBanner = () => {
   return (
-    <div className=" w-full text-white bg-gradient-to-l from-orange-600 to-orange-400 py-2">
-      <div className="flex justify-between">
-        <div className="mx-10">
-          <ul className="flex ">
-            <li className="flex space-x-2">
+    <div className="hidden md:block w-full text-white bg-gradient-to-l from-orange-600 to-orange-400 py-2">
+      <div className="max-w-6xl mx-auto flex justify-between px-5">
+        <ul className="flex items-center">
+          <li className="flex items-center space-x-2">
+            <a
+              href="tel:+8801301253885"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center space-x-2 hover:underline"
+            >
               <BsFillTelephoneFill className="text-xl" />
               <span className="hidden md:block">+880 13012-53885</span>
-            </li>
-            <li className="flex  mx-4 space-x-2">
-              <a
-                href="mailto:tarekrahim100@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-                className="flex space-x-2">
-                <AiFillMail className="text-xl" />
-                <span className="hidden md:block">tarekrahim100@gmail.com</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="mx-5">
-          <ul className="flex">
-            <li className="ml-5 text-sm uppercase text-white ">
-              <a
-                href=""
-                target="_blank"
-                rel="noreferrer">
-                <div className="text-xl  cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaLinkedinIn />
-                </div>
-              </a>
-            </li>
-            <li className="ml-5 text-sm uppercase text-white">
-              <a
-                href="https://www.facebook.com/tarekrfahim"
-                target="_blank"
-                rel="noreferrer">
-                <div className="text-xl  cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaFacebook />
-                </div>
-              </a>
-            </li>
-            <li className="ml-5 text-sm uppercase text-white">
-              <a href="https://github.com/tarekrfahim" target="_blank" rel="noreferrer">
-                <div className="text-xl  cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaGithub />
-                </div>
-              </a>
-            </li>
-            <li className="ml-5 text-sm uppercase text-white">
-              <a
-                href="mailto:tarekrfahim100@gmail.com"
-                target="_blank"
-                rel="noreferrer">
-                <div className="text-xl  cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <AiFillMail />
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
+            </a>
+          </li>
+          <li className="flex items-center mx-4 space-x-2">
+            <a
+              href="mailto:tarekrahim100@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center space-x-2 hover:underline"
+            >
+              <AiFillMail className="text-xl" />
+              <span className="hidden md:block">tarekrahim100@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+        <ul className="flex items-center">
+          <li className="ml-5 text-sm uppercase text-white">
+            <a href="https://www.facebook.com/gddots" target="_blank" rel="noreferrer">
+              <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                <FaFacebookSquare />
+              </div>
+            </a>
+          </li>
+          <li className="ml-5 text-sm uppercase text-white">
+            <a href="https://www.behance.net/tarekrahimkebria" target="_blank" rel="noreferrer">
+              <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                <FaBehanceSquare />
+              </div>
+            </a>
+          </li>
+          <li className="ml-5 text-sm uppercase text-white">
+            <a href="http://linkedin.com/in/tarek-rahim-953857194" target="_blank" rel="noreferrer">
+              <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                <FaInstagramSquare />
+              </div>
+            </a>
+          </li>
+          <li className="ml-5 text-sm uppercase text-white">
+            <a href="https://www.youtube.com/@graphichubs2479" target="_blank" rel="noreferrer">
+              <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                <FaYoutubeSquare />
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

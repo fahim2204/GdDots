@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { BsSearch } from "react-icons/bs";
 import NavBanner from "./NavBanner";
 import NavLogo from "../public/assets/GD-Dots.png";
 
@@ -11,7 +10,6 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("transparent");
   const [linkColor, setLinkColor] = useState("#ffffff");
-  // const [position, setPosition] = useState('fixed')
   const [navBanner, setNavBanner] = useState(true);
 
   const handleNav = () => {
@@ -46,27 +44,15 @@ const Navbar = () => {
         className={`fixed w-full h-20 z-[100] ease-in-out duration-300 ${
           shadow ? "shadow-gray-400" : ""
         } `}
-        >
+      >
         <div className="flex justify-between items-center  h-full mx-8">
           <Link href="/">
             <div className="flex space-x-2">
-              <Image
-                src={NavLogo}
-                alt="/"
-                width={140} height={40}
-                className="cursor-pointer"
-              />
-              {/* <h3
-                className="text-white font-bold text-xl"
-                style={{ color: `${linkColor}` }}>
-                GD-dots
-              </h3> */}
+              <Image src={NavLogo} alt="/" width={140} height={40}/>
             </div>
           </Link>
           <div>
-            <ul
-              style={{ color: `${linkColor}` }}
-              className="hidden md:flex space-x-8 mx-10">
+            <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8 mx-10">
               <li className="ml-7 text-sm uppercase ">
                 <Link href="/">Home</Link>
               </li>
@@ -83,17 +69,13 @@ const Navbar = () => {
               <li className="ml-7 text-sm uppercase ">
                 <Link href="/#contact">Contact</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
-                <Link href="/search">
-                  <BsSearch className="text-lg" />
-                </Link>
-              </li>
             </ul>
             {/* Hamburger Icon */}
             <div
               style={{ color: `${linkColor}` }}
               onClick={handleNav}
-              className="md:hidden rounded-full bg-gray-600 p-2">
+              className="md:hidden rounded-full bg-gray-600 p-2"
+            >
               <AiOutlineMenu size={25} className="text-white" />
             </div>
           </div>
@@ -101,19 +83,15 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {/* Overlay */}
-        <div
-          className={
-            nav
-              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70"
-              : ""
-          }>
+        <div className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}>
           {/* Side Drawer Menu */}
           <div
             className={
               nav
                 ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
-            }>
+            }
+          >
             <div>
               <div className="flex w-full items-center justify-between">
                 <Link href="/">
@@ -123,7 +101,8 @@ const Navbar = () => {
                 </Link>
                 <div
                   onClick={handleNav}
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer ">
+                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
+                >
                   <AiOutlineClose className="text-black" />
                 </div>
               </div>
