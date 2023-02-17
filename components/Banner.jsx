@@ -8,35 +8,30 @@ import slider4 from "../public/assets/slide4.jpg";
 
 const Banner = () => {
   return (
-    <div className=" text-4xl relative text-center  bg-white-400">
+    <div className="bg-white">
       <Swiper
-        spaceBetween={30}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper"
+        className="mySwiper relative"
       >
         <SwiperSlide>
-          <Image
-            src={slider4}
-            alt=".."
-            className=" w-full object-fill object-center h-full curved-slider"
-          />
+          <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
         </SwiperSlide>
         <SwiperSlide>
           <Image src={slider2} alt=".." className="w-full object-fill object-center h-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slider3} alt=".." className=" w-full object-fill object-center h-full" />
+          <Image src={slider3} alt=".." className="w-full object-fill object-center h-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slider4} alt=".." className=" w-full object-fill object-center h-full" />
+          <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
         </SwiperSlide>
       </Swiper>
-      <div class="flex absolute bottom-0  w-full translate-y-8 z-30">
+      <div class="flex absolute bottom-0  w-full translate-y-7 z-30">
         <svg viewBox="0 0 1440 319">
           <path
             fill="white"

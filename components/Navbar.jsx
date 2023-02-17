@@ -50,20 +50,20 @@ const Navbar = () => {
             <Image src={NavLogo} alt="/" width={140} height={40} />
           </Link>
           <div>
-            <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8">
-              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
+            <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8 uppercase">
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/">Home</Link>
               </li>
-              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#company">Company</Link>
               </li>
-              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#services">Services</Link>
               </li>
-              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#blogs">Blogs</Link>
               </li>
-              <li className="uppercase hover:scale-110 hover:-translate-y-1 transition-all ease-in duration-400">
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#contact">Contact</Link>
               </li>
             </ul>

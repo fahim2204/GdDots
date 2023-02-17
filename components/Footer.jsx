@@ -5,8 +5,7 @@ import Logo from "../public/assets/GD-Dots.png";
 
 const Footer = () => {
   return (
-    <section>
-      <footer className=" bg-black text-white shadow-lg">
+      <footer className="bg-black text-white shadow-lg">
         <div className="container px-5 pt-12 mx-auto gap-1 md:gap-20 grid md:grid-cols-3  md:items-center  ">
           <div className="text-center mb-10 md:text-left">
             <Link href={"/"}>
@@ -82,7 +81,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </section>
   );
 };
 
