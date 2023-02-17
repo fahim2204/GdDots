@@ -8,7 +8,7 @@ import slider4 from "../public/assets/slide4.jpg";
 
 const Banner = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white relative">
       <Swiper
         centeredSlides={true}
         autoplay={{
@@ -16,7 +16,7 @@ const Banner = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper relative"
+        className="mySwiper"
       >
         <SwiperSlide>
           <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
@@ -31,7 +31,7 @@ const Banner = () => {
           <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
         </SwiperSlide>
       </Swiper>
-      <div class="flex absolute bottom-0  w-full translate-y-7 z-30">
+      <div class="absolute bottom-0  w-full translate-y-7 z-30">
         <svg viewBox="0 0 1440 319">
           <path
             fill="white"
