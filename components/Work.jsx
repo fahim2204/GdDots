@@ -5,55 +5,46 @@ import Image from "next/image";
 import slider from "../public/assets/logo.png";
 import slider2 from "../public/assets/banner.png";
 import slider3 from "../public/assets/the.png";
-import slider4 from "../public/assets/cover.jpg";
 const Work = () => {
   return (
-    <div id="work" className="">
-      <div className="px-8 py-8  mx-auto">
+    <div id="work" className="max-w-6xl mx-auto px-5">
+      <div className="py-8">
         <div className="flex mb-5 flex-col items-center">
-          <h3 className="text-5xl text-center uppercase tracking-widest">
+          <h3 className="text-4xl sm:text-5xl mb-10 text-center uppercase tracking-widest font-sans">
             <span className="text-orange-600">Our </span> Work
           </h3>
         </div>
         <Swiper
           breakpoints={{
-            // 576: {
-            //   slidesPerView: 2,
-            // },
-            768: {
+            0: {
+              slidesPerView: 1,
+            }, 768: {
               slidesPerView: 3,
             },
           }}
-          slidesPerView={1}
           spaceBetween={30}
           centeredSlides={false}
           navigation={true}
           modules={[Navigation]}
-          className="mySwiper"
+          className="mySwiper px-4 md:px-0"
         >
           <SwiperSlide>
-            <Image src={slider} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={slider3} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider3} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
-            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
           <SwiperSlide>
-            {" "}
-            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Image src={slider2} alt=".." className=" rounded-2xl  w-full h-full mt-5" />
+            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
           </SwiperSlide>
         </Swiper>
         <div className="flex justify-center py-5">
