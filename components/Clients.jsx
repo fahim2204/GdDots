@@ -10,33 +10,34 @@ import slider4 from "../public/assets/the.png";
 const Clients = () => {
   return (
     <section id="work" className="">
-      <div className="px-8 pb-8 mx-auto">
+      <div className="max-w-6xl mx-auto px-5 pb-8 pt-5">
         <div className="flex mb-5 flex-col items-center">
-          <h3 className="text-5xl text-center uppercase tracking-widest border-b-4 border-orange-500 mb-2">
-          <span className="text-orange-600">Our </span> Clients
+          <h3 className="text-4xl sm:text-5xl mb-10 text-center uppercase tracking-widest border-b-4 border-orange-500">
+            <span className="text-orange-600">Our </span> Clients
           </h3>
         </div>
         <Swiper
           breakpoints={{
-               576: {
-            slidesPerView: 2,
-          },
+            0: {
+              slidesPerView: 1,
+            },
+            576: {
+              slidesPerView: 2,
+            },
             768: {
               slidesPerView: 3,
-              spaceBetween: 40,
             },
-        
+            1000: {
+              slidesPerView: 4,
+            },
           }}
-          slidesPerView={1}
           spaceBetween={30}
           autoplay={{
             delay: 1500,
             disableOnInteraction: false,
           }}
-          centeredSlides={true}
-          
+          centeredSlides={false}
           modules={[Navigation, Autoplay]}
-         
           className="mySwiper"
         >
           <SwiperSlide>
@@ -68,7 +69,6 @@ const Clients = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-       
             <Image
               src={slider2}
               alt=".."
@@ -76,7 +76,6 @@ const Clients = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-          
             <Image
               src={slider2}
               alt=".."
@@ -84,7 +83,6 @@ const Clients = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-          
             <Image
               src={slider2}
               alt=".."
@@ -92,7 +90,6 @@ const Clients = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-          
             <Image
               src={slider3}
               alt=".."
@@ -100,7 +97,6 @@ const Clients = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-         
             <Image
               src={slider2}
               alt=".."
