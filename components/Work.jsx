@@ -9,45 +9,42 @@ const Work = () => {
   return (
     <div id="work" className="max-w-6xl mx-auto px-5">
       <div className="py-8">
-        <div className="flex mb-5 flex-col items-center">
-          <h3 className="text-4xl sm:text-5xl mb-10 text-center uppercase tracking-widest font-sans">
+        <div className="flex flex-col items-center">
+          <h3 className="text-4xl sm:text-5xl mb-10 font-semibold text-center uppercase tracking-widest font-poppin">
             <span className="text-orange-600">Our </span> Work
           </h3>
         </div>
-        <Swiper
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            }, 768: {
-              slidesPerView: 3,
-            },
-          }}
-          spaceBetween={30}
-          centeredSlides={false}
-          navigation={true}
-          modules={[Navigation]}
-          className="mySwiper px-4 md:px-0"
-        >
-          <SwiperSlide>
-            <Image src={slider} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={slider3} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={slider2} alt=".." className="rounded-2xl w-full h-full" />
-          </SwiperSlide>
-        </Swiper>
-        <div className="flex justify-center py-5">
+        <div className="justify-center text-center items-center mx-auto gap-4 md:gap-8 grid sm:grid-cols-2 md:grid-cols-3">
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+          <div class="h-full text-center rounded-3xl drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <Image src={slider} className="object-fill object-center" alt=".." />
+          </div>
+        </div>
+
+        <div className="flex justify-center mt-3 py-5">
           <button
             type="button"
             class="text-white text-xl font-medium rounded-lg shadow-xl hover:scale-105 px-5 py-3 text-center bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br transition-all duration-300"

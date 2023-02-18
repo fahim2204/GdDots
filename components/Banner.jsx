@@ -19,26 +19,21 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
+          <Image src={slider2} alt="slider" className="object-cover h-[30rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem] brightness-[0.1]" />
         </SwiperSlide>
-        <SwiperSlide>
-          <Image src={slider2} alt=".." className="w-full object-fill object-center h-full" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={slider3} alt=".." className="w-full object-fill object-center h-full" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={slider4} alt=".." className="w-full object-fill object-center h-full" />
-        </SwiperSlide>
+      
       </Swiper>
-      <div class="absolute bottom-0  w-full translate-y-7 z-30">
-        <svg viewBox="0 0 1440 319">
+      <div class="absolute bottom-0 w-full translate-y-4 md:translate-y-7 z-30">
+        <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
           <path
-            fill="white"
-            fill-opacity="1"
-            d="M0,32L48,80C96,128,192,224,288,224C384,224,480,128,576,90.7C672,53,768,75,864,96C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
+            d="M1440,320h-48c-48,0-144,0-240,0s-192,0-288,0s-192,0-288,0s-192,0-288,0s-192,0-240,0H0l0-128l48-32
+	c48-32,144-96,240-112s192,16,288,58.7C672,149,768,203,864,224s192,11,288-32s192-117,240-154.7L1440,0V320z"
+            fill="#ffffff"
+          />
         </svg>
+      </div>
+      <div className="absolute w-full top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 md:-translate-y-20 z-30 ">
+        <div className="px-3 text-4xl md:text-6xl lg:text-7xl text-white font-semibold text-center">Graphics Design</div>
       </div>
     </div>
   );
