@@ -18,64 +18,80 @@ const Services = () => {
             </h1>
           </div>
           <div className="justify-center text-center items-center mx-auto gap-4 md:gap-8 lg:gap-16 grid sm:grid-cols-2 md:grid-cols-3">
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
-              <Image src={Img} className="object-fill object-center" alt=".." />
-              <h2 className="text-3xl md:text-4xl font-medium">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+              <Image
+                src="./img/Graphic-Design.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
+                alt=".."
+              />
+              <h2 className="text-3xl font-medium mt-5">
                 Graphics <br /> Design
               </h2>
             </div>
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
               <Image
-                src={Img2}
-                className="object-fill object-center mb-4"
+                src="./img/Motion-Graphic.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
                 alt=".."
               />
-              <h2 className="text-3xl md:text-4xl font-medium">
+              <h2 className="text-3xl font-medium mt-5">
                 Motion <br /> Graphics
               </h2>
             </div>
 
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
               <Image
-                src={Img3}
-                className="object-fill object-center mb-2"
+                src="./img/3D-Animation.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
                 alt=".."
               />
-              <h2 className="text-3xl md:text-4xl font-medium">
+              <h2 className="text-3xl font-medium mt-5">
                 3D <br /> Animation
               </h2>
             </div>
 
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
               <Image
-                src={Img4}
-                className="object-fill object-center mb-2"
+                src="./img/web-development.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
                 alt=".."
               />
-              <h2 className="text-3xl md:text-4xl font-medium">
-                UI/UX <br /> Design
+              <h2 className="text-3xl font-medium mt-5">
+                Web <br /> Development
               </h2>
             </div>
 
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
               <Image
-                src={Img5}
-                className="object-fill object-center mb-2"
+                src="./img/Clipping-Path-Services.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
                 alt=".."
               />
-              <h2 className="text-3xl md:text-4xl font-medium">
+              <h2 className="text-3xl font-medium mt-5">
                 Clipping
                 <br /> Path
               </h2>
             </div>
 
-            <div class="h-full p-6 text-center mb-4 rounded-3xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
+            <div class="h-full p-0 overflow-hidden text-center mb-4 rounded-xl drop-shadow-md bg-blue-50 border border-gray-200 hover:bg-white text-gray-900 cursor-pointer hover:scale-105 transition ease-in duration-500">
               <Image
-                src={Img6}
-                className="object-fill object-center mb-2"
+                src="./img/Video-Editing.webp"
+                className="object-fill object-center"
+                height={400}
+                width={650}
                 alt=".."
               />
-              <h2 className="text-3xl md:text-4xl font-medium">
+              <h2 className="text-3xl font-medium mt-5">
                 Video <br /> Editing
               </h2>
             </div>

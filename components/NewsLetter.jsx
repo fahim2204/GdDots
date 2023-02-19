@@ -6,7 +6,7 @@ const NewsLetter = () => {
           <h3 className="text-4xl tracking-tight text-center">Join Our Newsletter</h3>
         </div>
         <form className="flex justify-center">
-          <div className="max-w-xl w-full relative">
+          <div className="max-w-4xl w-full relative">
             <input
               type="email"
               className="bg-white text-start border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-4 px-5 text-sm sm:text-base"
