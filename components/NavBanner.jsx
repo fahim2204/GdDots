@@ -39,28 +39,28 @@ const NavBanner = () => {
         <ul className="flex items-center">
           <li className="ml-3 text-sm uppercase text-white">
             <a href="https://www.facebook.com/gddots" target="_blank" rel="noreferrer">
-              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-500">
+              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-300">
                 <FaFacebookSquare />
               </div>
             </a>
           </li>
           <li className="ml-5 text-sm uppercase text-white">
             <a href="https://www.behance.net/tarekrahimkebria" target="_blank" rel="noreferrer">
-              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-500">
+              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-300">
                 <FaBehanceSquare />
               </div>
             </a>
           </li>
           <li className="ml-5 text-sm uppercase text-white">
             <a href="http://linkedin.com/in/tarek-rahim-953857194" target="_blank" rel="noreferrer">
-              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-500">
+              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-300">
                 <FaInstagramSquare />
               </div>
             </a>
           </li>
           <li className="ml-5 text-sm uppercase text-white">
             <a href="https://www.youtube.com/@gddots" target="_blank" rel="noreferrer">
-              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-500">
+              <div className="text-xl  cursor-pointer hover:-translate-y-[2px] hover:scale-125 ease-in duration-300">
                 <FaYoutubeSquare />
               </div>
             </a>

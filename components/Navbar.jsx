@@ -41,13 +41,13 @@ const Navbar = () => {
 
       <div
         style={{ backgroundColor: `${navBg}` }}
-        className={`fixed w-full h-20 z-[100] ease-in-out duration-300 ${
+        className={`fixed w-full h-20 z-[100] ease-in-out opacity-90 duration-300 ${
           shadow ? "shadow-gray-400" : ""
         } `}
       >
         <div className="max-w-6xl mx-auto px-5 flex justify-between items-center h-full">
           <Link href="/">
-            <Image src={NavLogo} alt="/" width={140} height={40} />
+            <Image className="hover:scale-110 hover:-translate-y-1 transition-all duration-500" src={NavLogo} alt="/" width={140} height={40} />
           </Link>
           <div>
             <ul style={{ color: `${linkColor}` }} className="hidden md:flex space-x-8 uppercase">
