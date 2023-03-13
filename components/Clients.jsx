@@ -7,19 +7,36 @@ import slider2 from "../public/assets/1212.png";
 import slider3 from "../public/assets/sera.png";
 import slider4 from "../public/assets/the.png";
 
+const ourClients = [
+  "BBQUEEN-16.webp",
+  "Brain-Capita.webp",
+  "Daraz.webp",
+  "hai-education.webp",
+  "Land-Mark.webp",
+  "mega-marchndising-company-ltd.webp",
+  "mega-pace.webp",
+  "megastar-technology.webp",
+  "Nogod.webp",
+  "Printing-Bangla.webp",
+  "Rokomari.webp",
+  "Socitydeal24.com.webp",
+  "Softopark.com.webp",
+  "The-Movers.webp",
+];
+
 const Clients = () => {
   return (
     <section id="work" className="">
       <div className="max-w-6xl mx-auto px-5 pb-8 pt-5">
         <div className="flex mb-5 flex-col items-center">
-          <h3 className="text-4xl sm:text-5xl mb-10 text-center uppercase tracking-widest border-b-4 border-orange-500">
+          <h3 className="text-4xl sm:text-5xl mb-5 text-center font-semibold uppercase tracking-widest">
             <span className="text-orange-600">Our </span> Clients
           </h3>
         </div>
         <Swiper
           breakpoints={{
             0: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             576: {
               slidesPerView: 2,
@@ -31,7 +48,7 @@ const Clients = () => {
               slidesPerView: 4,
             },
           }}
-          spaceBetween={30}
+          spaceBetween={10}
           autoplay={{
             delay: 1500,
             disableOnInteraction: false,
@@ -40,73 +57,17 @@ const Clients = () => {
           modules={[Navigation, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <Image
-              src={slider}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider3}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider4}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider3}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src={slider2}
-              alt=".."
-              className=""
-            />
-          </SwiperSlide>
+          {ourClients.map((client, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <img src={`./img/clients/${client}`} alt=".." className="" />
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Clients
+export default Clients;
