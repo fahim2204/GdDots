@@ -93,7 +93,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
 
-jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
