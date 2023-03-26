@@ -1,5 +1,6 @@
-import Company from "./company";
-import Services from "./services";
+import Company from "@/components/company";
+import AboutUs from "@/components/aboutUs";
+import Services from "@/components/services";
 import Banner from "@/components/Banner";
 import Work from "@/components/Work";
 import Clients from "@/components/Clients";
@@ -10,7 +11,8 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <Company />
+      <AboutUs />
+      {/* <Company /> */}
       <Services />
       <Work />
       <Clients />
