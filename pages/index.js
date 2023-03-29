@@ -3,7 +3,7 @@ import AboutUs from "@/components/aboutUs";
 import Services from "@/components/services";
 import Banner from "@/components/Banner";
 import Portfolio from "@/components/portfolio";
-import Clients from "@/components/dlients";
+import Clients from "@/components/clients";
 import Testimonial from "@/components/Testimonial";
 import NewsLetter from "@/components/NewsLetter";
 
