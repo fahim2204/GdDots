@@ -1,11 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
-import Image from "next/image";
-import slider from "../public/assets/11.png";
-import slider2 from "../public/assets/1212.png";
-import slider3 from "../public/assets/sera.png";
-import slider4 from "../public/assets/the.png";
 
 const ourClients = [
   "BBQUEEN-16.webp",
@@ -29,8 +24,8 @@ const Clients = () => {
     <section id="work" className="">
       <div className="max-w-6xl mx-auto px-5 pb-8 pt-5">
         <div className="flex mb-5 flex-col items-center">
-          <h3 className="text-4xl sm:text-5xl mb-5 text-center font-semibold uppercase tracking-widest">
-            <span className="text-orange-600">Our </span> Clients
+          <h3 className="text-4xl text-slate-800 font-extralight underline-gd sm:text-5xl mb-5 text-center uppercase">
+            Our<span className="font-bold">Clients</span>
           </h3>
         </div>
         <Swiper
@@ -50,10 +45,14 @@ const Clients = () => {
           }}
           spaceBetween={10}
           autoplay={{
-            delay: 1500,
+            delay: 0,
+            reverseDirection: false,
             disableOnInteraction: false,
           }}
-          centeredSlides={false}
+          grabCursor={true}
+          speed={3500}
+          // loop={true} // add loop setting
+          // freeMode={true} // add freeMode setting
           modules={[Navigation, Autoplay]}
           className="mySwiper"
         >

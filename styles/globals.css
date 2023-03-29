@@ -12,8 +12,25 @@ html {
   scroll-behavior: smooth;
   font-family: 'Poppins','Raleway', sans-serif;
 }
+body{
+  background-color: #e2e6f2;
+}
 
 /* Modify Swiper JS */
 .swiper-pagination-bullet-active {
   background-color: #ffffff !important;
+}
+
+
+.underline-gd {
+  background-image: linear-gradient(181deg, #ffa620 0%, #fba11a 50%, transparent 54%, transparent 100%);
+  background-size:  100% 15%;
+   background-repeat: repeat-x;
+   background-position: left 0% bottom 10%;
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
 }

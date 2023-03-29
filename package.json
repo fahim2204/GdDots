@@ -18,8 +18,9 @@
         "react-countup": "^6.4.1",
         "react-dom": "18.2.0",
         "react-icons": "^4.7.1",
-        "swiper": "^8.4.6",
-        "swiper-bundle": "^0.0.1-security"
+        "swiper": "^8.4.7",
+        "swiper-bundle": "^0.0.1-security",
+        "swiper-react": "^1.0.0"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",

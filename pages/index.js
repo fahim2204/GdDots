@@ -2,8 +2,8 @@ import Company from "@/components/company";
 import AboutUs from "@/components/aboutUs";
 import Services from "@/components/services";
 import Banner from "@/components/Banner";
-import Work from "@/components/Work";
-import Clients from "@/components/Clients";
+import Portfolio from "@/components/portfolio";
+import Clients from "@/components/clients";
 import Testimonial from "@/components/Testimonial";
 import NewsLetter from "@/components/NewsLetter";
 
@@ -12,9 +12,9 @@ export default function Home() {
     <>
       <Banner />
       <AboutUs />
-      {/* <Company /> */}
       <Services />
-      <Work />
+      <Company />
+      <Portfolio />
       <Clients />
       <Testimonial />
       <NewsLetter />
