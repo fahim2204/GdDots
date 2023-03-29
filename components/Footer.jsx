@@ -26,6 +26,40 @@ const Footer = () => {
             video editing, and 3D services. We prioritize customer satisfaction and have been
             providing excellent service for the past 5 years.
           </p>
+          <ul className="mt-4 flex items-start justify-center md:justify-start mb-4">
+              <li className="text-sm uppercase text-white">
+                <a href="https://www.facebook.com/gddots" target="_blank" rel="noreferrer">
+                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaFacebookSquare className="rounded-full hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
+                  </div>
+                </a>
+              </li>
+              <li className="ml-5 text-sm uppercase text-white">
+                <a href="https://www.behance.net/tarekrahimkebria" target="_blank" rel="noreferrer">
+                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaBehanceSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
+                  </div>
+                </a>
+              </li>
+              <li className="ml-5 text-sm uppercase text-white">
+                <a
+                  href="http://linkedin.com/in/tarek-rahim-953857194"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaInstagramSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
+                  </div>
+                </a>
+              </li>
+              <li className="ml-5 text-sm uppercase text-white">
+                <a href="https://www.youtube.com/@gddots" target="_blank" rel="noreferrer">
+                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaYoutubeSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
+                  </div>
+                </a>
+              </li>
+            </ul>
         </div>
 
         <div className="mt-5 justify-center text-center items-center md:mt-0 md:text-left">
@@ -98,40 +132,7 @@ const Footer = () => {
                 </div>
               </li>
             </nav>
-            <ul className="flex items-start justify-center md:justify-start mb-4">
-              <li className="text-sm uppercase text-white">
-                <a href="https://www.facebook.com/gddots" target="_blank" rel="noreferrer">
-                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
-                    <FaFacebookSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
-                  </div>
-                </a>
-              </li>
-              <li className="ml-5 text-sm uppercase text-white">
-                <a href="https://www.behance.net/tarekrahimkebria" target="_blank" rel="noreferrer">
-                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
-                    <FaBehanceSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
-                  </div>
-                </a>
-              </li>
-              <li className="ml-5 text-sm uppercase text-white">
-                <a
-                  href="http://linkedin.com/in/tarek-rahim-953857194"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
-                    <FaInstagramSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
-                  </div>
-                </a>
-              </li>
-              <li className="ml-5 text-sm uppercase text-white">
-                <a href="https://www.youtube.com/@gddots" target="_blank" rel="noreferrer">
-                  <div className="text-xl  cursor-pointer hover:scale-110 ease-in duration-500">
-                    <FaYoutubeSquare className="hover:translate-x-0.5 hover:scale-110 hover:text-orange-600 cursor-pointer transition-all ease-in duration-400" />
-                  </div>
-                </a>
-              </li>
-            </ul>
+           
           </div>
         </div>
       </div>
