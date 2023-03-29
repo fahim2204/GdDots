@@ -46,15 +46,21 @@ const NewsLetter = () => {
         </div>
         <div className="mb-8">
           <h3 className="text-3xl font-semibold tracking-tight uppercase mb-4">
-            get our newsletter
+            send us a message
           </h3>
           <form className="flex justify-start">
             <div className="w-96 relative">
               <input
-                type="email"
-                className="bg-white text-start border shadow-[0_2px_10px_1px_fa4562] border-gray-300 text-gray-900 rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full py-3 px-7 text-sm sm:text-base"
-                placeholder="Your Email Address"
+                type="text"
+                className="bg-white text-start border shadow-[0_2px_10px_1px_fa4562] border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3 px-7 text-sm sm:text-base"
+                placeholder="Name"
               />
+              <input
+                type="email"
+                className="bg-white text-start border shadow-[0_2px_10px_1px_fa4562] border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3 px-7 text-sm sm:text-base"
+                placeholder="Email"
+              />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
               <button
                 type="button"
                 className="absolute top-1/2 right-5 -translate-y-1/2"
