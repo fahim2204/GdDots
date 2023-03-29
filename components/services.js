@@ -26,7 +26,7 @@ const Services = () => {
               return (
                 <div key={index} class="h-full p-4 mb-4 rounded-2xl shadow-[0_2px_10px_1px_rgba(0,0,0,0.3)] bg-white border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500">
                   <img
-                    src={`/img/services/${item.img}`}
+                    src={`./img/services/${item.img}`}
                     className="mx-auto h-32"
                     alt="service"
                   />

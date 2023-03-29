@@ -36,7 +36,7 @@ const Work = () => {
                 class="h-full text-center rounded-xl overflow-hidden drop-shadow-md border border-gray-200 cursor-pointer hover:scale-105 transition ease-in duration-500"
               >
                 <img
-                  src={`img/works/${work}`}
+                  src={`./img/works/${work}`}
                   className="object-cover h-full"
                   alt=".."
                 />
