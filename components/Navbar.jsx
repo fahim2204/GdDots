@@ -55,16 +55,19 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
-                <Link href="/#company">Company</Link>
+                <Link href="/about">Company</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
-                <Link href="/#services">Services</Link>
+                <Link href="/service">Services</Link>
+              </li>
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
+                <Link href="/vision">Vision</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#blogs">Blogs</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
-                <Link href="/#contact">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
             {/* Hamburger Icon */}
