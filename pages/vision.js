@@ -39,8 +39,8 @@ export default function Vision() {
             <Image
               className="p-2 md:p-4 lg:p-8 object-center w-100"
               src="./img/Our-Vision.webp"
-              height={450}
-              width={630}
+              height={350}
+              width={530}
               alt="stats"
             />
           </div>

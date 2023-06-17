@@ -39,7 +39,7 @@ export default function Contact() {
               className="p-2 md:p-4 lg:p-8 object-center w-100"
               src="./img/Contact.webp"
               height={350}
-              width={430}
+              width={530}
               alt="stats"
             />
           </div>
@@ -49,14 +49,14 @@ export default function Contact() {
             </h1>
             <p className="m-0 text-center">
               Thank you for your interest in our service. Please fill out the
-              below or e-mail us at tarekrahim100@gmail.com and we will get back
+              below or e-mail us at tarekrahim100@gmail.com <br></br> and we will get back
               to youpromptly regarding your request.
             </p>
           </div>
         </div>
         <div className="bg-white rounded-3xl p-10 pb-2">
           <div className="mb-8">
-            <h3 className=" text-xl md:text-3xl font-bold text-center tracking-tight uppercase mb-4">
+            <h3 className=" text-xl md:text-3xl font-bold text-center tracking-tight uppercase mb-8">
               Drop Us a line
             </h3>
             <form className="flex flex-col items-center">
@@ -101,50 +101,53 @@ export default function Contact() {
           </div>
         </div>
         {/* address */}
-        <div className="text-slate-800 mt-8 mb-10">
-          <div className="text-center mb-3">
+        <div className="text-slate-800 mt-16 mb-10">
+          <div className="text-center mb-5">
             <h1 className="font-semibold text-xl md:text-3xl border-b-2 border-gray-400 inline-block">
               Get in touch
             </h1>
           </div>
 
-          <p className="m-0  text-center mb-4">
+          <p className=" text-center mb-8">
             We have worldclass, flexible support via live chat email and
             offline.we guarantee that you'll be <br></br> able to have any issue
             resolve within 24 hours.
           </p>
-          <p className="m-0 text-center">
+          <p className=" text-center">
             Address: House 40, Road 10, Block L, South Banasree, Dhaka-1219,
             Bangladesh
           </p>
-          <p className="m-0 text-center">
+          <p className=" text-center mb-4">
             Phone: +880 13012-53885, Email: tarekrahim100@gmail.com
           </p>
         </div>
+
         {/* location */}
-        <div className="mb-8">
+        <div className="mb-8 mt-10">
           <div className="text-center mb-3">
             <h1 className="font-semibold text-xl md:text-3xl inline-block">
               Location
             </h1>
           </div>
-          <div className="border rounded shadow-sm  list-none transition-none overflow-hidden w-full h-full">
-            <div id="embed-ded-map-canvas" className="h-full w-full">
+          <div id="embed-ded-map-canvas" class="h-full w-full">
+            <div class="border-t-4 border-black">
+              <h2 class="bg-black text-white p-4">GD Dots Location</h2>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.658834421681!2d90.44092187326483!3d23.759542478664123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c72340dfa817%3A0x801237aad9014a74!2sGD%20Dots!5e0!3m2!1sbn!2sbd!4v1686996888785!5m2!1sbn!2sbd"
                 width="100%"
                 height="450"
-                className="border-0"
-                allowFullScreen=""
+                class="border-0"
+                allowfullscreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
         </div>
+
         {/* newslwtter */}
-        <div className="mb-8">
-          <div className="text-center mb-3">
+        <div className="mb-12 mt-10">
+          <div className="text-center mb-5">
             <h1 className="font-semibold text-xl md:text-3xl">
               Drop your email address
             </h1>
