@@ -1,8 +1,8 @@
 import Company from "@/components/companyservice";
-import Portfolio from "@/components/portfolio";
+import Package from "@/components/package";
 import Image from "next/image";
 import slider2 from "../public/assets/slide2.jpg";
-export default function Service() {
+export default function Plan() {
   return (
     <>
       <div className="bg-white relative">
@@ -44,7 +44,9 @@ export default function Service() {
           </div>
           <div className="text-slate-800 text-left">
             <h1 className="font-bold text-xl mb-3">
-              <span className="border-b-[3px]">Graphic Design in Bangladesh</span>
+              <span className="border-b-[3px]">
+                Graphic Design in Bangladesh
+              </span>
             </h1>
             <p className="m-0">
               Welcome to our company! We are a team of skilled designers and
@@ -76,9 +78,9 @@ export default function Service() {
           </div>
         </div>
       </section>
-
-      <Company />
-      <Portfolio />
+    {/* package */}
+      <Package/>
+      
     </>
   );
 }

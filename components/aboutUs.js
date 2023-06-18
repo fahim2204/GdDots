@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Static from "../public/assets/1.jpg";
-import CountUp from "react-countup";
 
 const AboutUs = () => {
   return (

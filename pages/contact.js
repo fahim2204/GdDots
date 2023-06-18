@@ -1,6 +1,6 @@
 import Company from "@/components/company";
 import Image from "next/image";
-import slider2 from "../public/assets/slide2.jpg";
+import slider2 from "../public/assets/Contact-1.webp";
 import { RiSendPlaneFill } from "react-icons/ri";
 export default function Contact() {
   return (
@@ -12,7 +12,7 @@ export default function Contact() {
           alt="banner"
           className="object-cover h-[30rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem]"
         />
-        <div class="absolute bottom-0 w-full translate-y-4 md:translate-y-7 z-30">
+        {/* <div class="absolute bottom-0 w-full translate-y-4 md:translate-y-7 z-30">
           <svg
             className=""
             xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="px-3 text-4xl md:text-6xl lg:text-7xl text-white font-semibold text-center">
             contact us
           </div>
-        </div>
+        </div> */}
       </div>
       {/* contact form */}
       <section className="max-w-6xl mx-auto px-5 mb-5">
@@ -49,8 +49,8 @@ export default function Contact() {
             </h1>
             <p className="m-0 text-center">
               Thank you for your interest in our service. Please fill out the
-              below or e-mail us at tarekrahim100@gmail.com <br></br> and we will get back
-              to youpromptly regarding your request.
+              below or e-mail us at tarekrahim100@gmail.com <br></br> and we
+              will get back to youpromptly regarding your request.
             </p>
           </div>
         </div>
@@ -162,9 +162,9 @@ export default function Contact() {
               />
               <button
                 type="button"
-                className="absolute right-0 top-0 h-full bg-orange-500 text-white px-4 py-2 rounded-r-full flex items-center justify-center"
+                className="absolute top-1/2 right-5 -translate-y-1/2"
               >
-                <span className="text-lg">Subscribe</span>
+                <RiSendPlaneFill className="text-3xl text-white hover:scale-110 hover:shadow-[0_2px_10px_1px_rgba(0,0,0,0.3)]s rotate-45 fill-orange-500 hover:fill-orange-300 transition-all duration-300" />
               </button>
             </div>
           </form>

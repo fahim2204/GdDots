@@ -47,7 +47,7 @@ const Work = () => {
 
         <div className="flex justify-center mt-3 py-5">
           <a
-            href="https://www.behance.net/gddots1"
+            href="https://www.behance.net/gddots1" target="_blank"
             class="text-white text-xl font-medium rounded-lg shadow-xl hover:scale-105 px-5 py-3 text-center bg-gradient-to-l from-orange-600 to-orange-400 hover:bg-gradient-to-br transition-all duration-1000"
           >
             View All Projects

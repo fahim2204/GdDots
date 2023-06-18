@@ -1,6 +1,6 @@
 import Company from "@/components/company";
 import Image from "next/image";
-import slider2 from "../public/assets/slide2.jpg";
+import slider2 from "../public/assets/vision.webp";
 import { RiSendPlaneFill } from "react-icons/ri";
 export default function Vision() {
   return (
@@ -11,7 +11,7 @@ export default function Vision() {
           alt="banner"
           className="object-cover h-[30rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem]"
         />
-        <div class="absolute bottom-0 w-full translate-y-4 md:translate-y-7 z-30">
+        {/* <div class="absolute bottom-0 w-full translate-y-4 md:translate-y-7 z-30">
           <svg
             className=""
             xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@ export default function Vision() {
               fill="#e2e6f2"
             />
           </svg>
-        </div>
-        <div className="absolute w-full top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 md:-translate-y-20 z-30">
+        </div> */}
+        {/* <div className="absolute w-full top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 md:-translate-y-20 z-30">
           <div className="px-3 text-4xl md:text-6xl lg:text-7xl text-white font-semibold text-center">
             Our Vision
           </div>
-        </div>
+        </div> */}
       </div>
       <section className="max-w-6xl mx-auto px-5">
         <div className="my-12  item-center">

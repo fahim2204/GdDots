@@ -1,13 +1,19 @@
 import Company from "@/components/company";
 import AboutUs from "@/components/aboutUs";
-import Banner from "@/components/Banner";
 import Clients from "@/components/clients";
-import FAQ from "@/components/faq";
-
+import slider2 from "../public/assets/about-us-2.webp";
+import Image from "next/image";
 export default function About() {
   return (
     <>
-      <Banner />
+      {/* banner */}
+      <div className="bg-white relative">
+        <Image
+          src={slider2}
+          alt="banner"
+          className="object-cover h-[30rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem]"
+        />
+      </div>
       <AboutUs />
       <Company />
       <Clients />

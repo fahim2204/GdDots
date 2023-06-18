@@ -64,6 +64,9 @@ const Navbar = () => {
                 <Link href="/vision">Vision</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
+                <Link href="/plan">Plan</Link>
+              </li>
+              <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
                 <Link href="/#blogs">Blogs</Link>
               </li>
               <li className="hover:scale-110 hover:-translate-y-0.5 hover:text-orange-600 transition-all ease-in duration-400">
