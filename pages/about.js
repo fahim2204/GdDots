@@ -11,7 +11,7 @@ export default function About() {
         <Image
           src={slider2}
           alt="banner"
-          className="object-cover h-[30rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem]"
+          className="object-cover h-[15rem] sm:h-[35rem] md:h-[37rem] 2xl:h-[42rem] brightness-[0.3]"
         />
       </div>
       <AboutUs />
