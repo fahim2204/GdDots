@@ -1,23 +1,7 @@
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home/fahimfai/logbyte.fahimfaisal.net"
-PassengerBaseURI "/"
-PassengerNodejs "/home/fahimfai/nodevenv/logbyte.fahimfaisal.net/16/bin/node"
-PassengerAppType node
-PassengerStartupFile server.js
-PassengerAppLogFile "/home/fahimfai/logbyte.fahimfaisal.net/logs/passenger.log"
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-# Disable directory indexes and MultiViews
-Options -Indexes -MultiViews
-# Prevent mod_dir appending a slash to directory requests
-DirectorySlash Off
+
 RewriteEngine On
-# Prevent any further processing if the URL already ends with a file extension
-RewriteRule \.\w{2.4}$ - [L]
-# Redirect any requests to remove a trailing slash
-RewriteRule (.*)/$ /$1 [R=301,L]
-# Rewrite /foo to /foo.html if it exists
-RewriteCond %{DOCUMENT_ROOT}/$1.html -f
-RewriteRule (.*) $1.html [L]
-# Otherwise, rewrite /foo to /foo/index.html if it exists
-RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
-RewriteRule (.*) $1/index.html [L]
+
+Redirect all HTTP and www to HTTPS non-www
+RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://gddots.com/$1 [L,R=301]
