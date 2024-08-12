@@ -22,6 +22,10 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <div className="hidden">
+          <a href="https://mcqgenius.com">MCQ Genius</a>
+          <a href="https://fahimfaisal.net">Build With Fahim</a>
+        </div>
       </body>
     </Html>
   )
