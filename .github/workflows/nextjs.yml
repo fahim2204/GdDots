@@ -36,7 +36,9 @@ jobs:
 
       - name: Prepare files for deployment
         run: |
-          cp .htaccess -t out
+          mkdir -p deploy
+          cp .htaccess -t deploy
+          cp -r out/* deploy
 
       - name: Deploy to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -44,6 +46,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: out/
+          local-dir: deploy/
           server-dir: ./
 
